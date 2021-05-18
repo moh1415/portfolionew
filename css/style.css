@@ -225,6 +225,11 @@ body {
   .btn--green::after {
     background-color: #55c57a; }
 
+.btn--disabled {
+  background-color: #999; }
+  .btn--disabled::after {
+    background-color: #999; }
+
 .btn:not(:last-child) {
   margin-right: 8rem; }
 
